@@ -1,0 +1,48 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+.input_block {
+    display: flex;
+    justify-content: left;
+    flex-wrap: inherit;
+    
+    
+}
+.head_block {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    width:100%;
+    border: 50px solid teal;
+    margin: 10px;
+    background-image: url(thewolf.jpg);
+    text-align: center;
+}
+h1 {
+    color: whitesmoke;
+}
+.container {
+    border: dotted;
+    width: 300px;
+}
+h2 {
+    justify-content: right;
+    text-align: center;
+    text-decoration: whitesmoke;
+}
+.input_block2 {
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    
+    
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    max-width: 75%;
+  }

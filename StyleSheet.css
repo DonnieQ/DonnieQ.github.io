@@ -1,12 +1,22 @@
 html{
     scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+    min-width: 100%;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    
 }
 h1{
     background-size: 50%;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     font-family: "Raleway", sans-serif;
         color: whitesmoke;
+        max-width: 100%;
+        max-height: 100%;
 }
 h2{
     background-size: 50%;
@@ -50,6 +60,7 @@ li a:hover {
      background-repeat: no-repeat;
      background-position: top center;
      background-size: cover;
+     min-width: 100%;
  }
  .intro2{
     background-image: url("blackcover.jpg");
@@ -57,13 +68,18 @@ li a:hover {
     background-position: top center;
     background-size: cover;
     position:relative;
+    width: 90%;
+    min-width: 100%;
+    margin: auto;
     
 }
+
  p{
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      color: whitesmoke;
      font-size: x-large;
      padding: 50px;
+     min-width: 100%;
  }
  .introFont {
     font-family: 'Fredericka the Great', cursive;
@@ -84,6 +100,8 @@ li a:hover {
     margin-left: 80px;
     background-color:transparent;
    position: relative;
+   min-width: 100%;
+   min-height: 100%;
     
     
   }
@@ -143,6 +161,10 @@ li a:hover {
       @keyframes mymove {
         from {border-color: gold;}
         to {border-color: honeydew;}
+      }
+      img {
+          max-width: 100%;
+          height: auto;
       } 
 .image1 {
     max-height: 800px;
@@ -202,6 +224,8 @@ li a:hover {
     width: 50px auto;
     background: transparent;
 }
+
+
 
   
    
